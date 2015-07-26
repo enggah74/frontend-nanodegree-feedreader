@@ -56,3 +56,25 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 
 * The link to the page is: http://enggah74.github.io/frontend-nanodegree-feedreader
 * There are a total of 12 tests performed.
+
+# Steps to follow to test feedreader
+1. Go to http://enggah74.github.io/frontend-nanodegree-feedreader to display the page and test using Jasmine test cases.
+2. The page will quickly display the Udacity Blog in a second and then displays the artice feed for the CSS tricks which is the 2nd URL.
+3. Click the hamburger menu on the top left corner. The application slides out the list of URLs to select to the right.
+4. Click the hamburger menu on the top left corner again. The application hides the list of URLs.
+5. Click the 1st link (Front End Development is Development). The application replaces the list of articles for the CSS Tricks with the article on the same page.
+6. Hit the back button to go back to the list of articles for CSS Tricks.first one on the menu - Udacity Blog.
+7. Scroll to the bottom of the page. It shows the results of the run of the feedreader.js which will test the following test cases:
+	5.1 Test the RSS SFeeds
+	  	5.1.1 Test that the objects for the allFeeds are defined
+	  	5.1.2 Test that there is data for the allFeeds objects
+	 	5.1.3 Iterate through each of the allFeed objects and test that each URL is defined and is not empty
+	 	5.1.4 Iterate through each of the allFeed objects and test that each name is defined and is not empty
+	5.2 Test the Menu
+		5.2.1 Test that the menu of all the URLs is hidden when the page initially loads. A hamburger menu shows on the top left corner of the page instead.
+		5.2.2 Test that the menu displays when the hamburger menu is clicked.
+		5.2.3 Test that the menu is replaced with the hamburger menu is clicked again.
+	5.3 Test the Initial load of articles
+		5.3.1 To test this, the spec for the New Feed Selection should be commented out. When the page is initially loaded, the list of articles for the Udacity Blog displays. Test that there is at least 1 article displayed.
+	5.4 Test the New Feed Selection
+		5.4.1 Uncomment the last spec in step5.3.1. Load the page again. The list of articles will be different from step5.3.1.
