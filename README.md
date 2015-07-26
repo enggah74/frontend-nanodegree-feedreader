@@ -37,3 +37,22 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 12. Write a test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. Remember, loadFeed() is asynchronous so this test wil require the use of Jasmine's beforeEach and asynchronous done() function.
 13. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
 14. When complete - all of your tests should pass.
+
+# My resources
+
+1. https://github.com/udacity/fend-office-hours/tree/master/Javascript%20Testing/P6%20Overview
+2. http://kroltech.com/2013/11/20/javascript-tdd-with-jasmine-and-karma/
+3. http://jasmine.github.io/2.2/introduction.html
+4. http://karma-runner.github.io/0.12/intro/how-it-works.html
+6. http://karma-runner.github.io/0.12/config/configuration-file.html
+7. https://developers.google.com/feed/v1/devguide
+8. http://tosbourn.com/using-loops-in-jasmine/
+9. http://codepen.io/jweden/pen/Irmil
+10. http://www.htmlgoodies.com/beyond/javascript/testing-javascript-using-the-jasmine-framework.html
+11. https://github.com/bhaskarsai/FeedReader/blob/master/jasmine/spec/feedreader.js
+12. https://github.com/akonanga/frontend-nanodegree-feedreader/blob/master/jasmine/spec/feedreader.js
+
+# Info
+
+* The link to the page is: http://enggah74.github.io/frontend-nanodegree-feedreader
+* There are a total of 12 tests performed.
