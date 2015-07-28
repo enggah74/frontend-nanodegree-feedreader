@@ -131,8 +131,6 @@ $(function() {
             done();
         });
 
-        // ...it was an event handler call -- or at least,
-        // a non-falsey argument of some kind was passed in
     });
 
     /* TODO: Write a new test suite named "New Feed Selection" */
@@ -146,9 +144,10 @@ $(function() {
          */
 
         beforeEach(function(done) {
-            currentContent = $('.feed').html();
-            loadFeed(1, function() {
-                done();
+            $('.feed').empty();
+            loadFeed(2, function() {
+                currentContent = $('.feed').html();
+                loadFeed(1, done);
             });
         });
 
